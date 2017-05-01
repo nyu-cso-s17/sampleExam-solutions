@@ -87,7 +87,7 @@ A) The actual struct in memory will look like:
 ```
 struct node {
 	char c;              /* 1 byte  */
-	char pad1[7];		 /* 7 bytes */
+	char pad1[7];        /* 7 bytes */
 	long value;          /* 8 bytes */
 	struct node* next;   /* 8 bytes */
 	int flag;            /* 4 bytes */
