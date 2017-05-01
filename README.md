@@ -86,14 +86,14 @@ A) The actual struct in memory will look like:
 
 ```
 struct node {
-	char c;              /* 1 byte  */
-	char pad1[7];        /* 7 bytes */
-	long value;          /* 8 bytes */
-	struct node* next;   /* 8 bytes */
-	int flag;            /* 4 bytes */
-	char pad2[4];        /* 4 bytes */
-	struct node* left;   /* 8 bytes */
-	struct node* right;  /* 8 bytes */
+  char c;              /* 1 byte  */
+  char pad1[7];        /* 7 bytes */
+  long value;          /* 8 bytes */
+  struct node* next;   /* 8 bytes */
+  int flag;            /* 4 bytes */
+  char pad2[4];        /* 4 bytes */
+  struct node* left;   /* 8 bytes */
+  struct node* right;  /* 8 bytes */
 } node;
 ```
 
@@ -119,17 +119,17 @@ C) This is because `main` does not wait for the threads to finish. We can fix th
 
 ```
 void main() { 
-	pthread_t th[3];
-	int i;
-	for (i = 0; i < 3; i++) {
-		pthread_create(&th[i], NULL, print_number, &i);
-	}
+  pthread_t th[3];
+  int i;
+  for (i = 0; i < 3; i++) {
+    pthread_create(&th[i], NULL, print_number, &i);
+  }
 
-	for (i = 0; i < 3; i++) {
-		pthread_join(th[i], NULL);
-	}
+  for (i = 0; i < 3; i++) {
+    pthread_join(th[i], NULL);
+  }
 
-	exit(0); 
+  exit(0); 
 }
 ```
 
