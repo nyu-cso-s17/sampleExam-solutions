@@ -9,7 +9,7 @@ Sample Exam: Solutions
 4)  a
 5)  d
 6)  c
-7)  c
+7)  a
 8)  a
 9)  b
 10) a,b
