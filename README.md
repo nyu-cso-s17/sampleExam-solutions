@@ -5,7 +5,7 @@ Sample Exam: Solutions
 
 1)  b
 2)  b
-3)  d
+3)  b
 4)  a
 5)  d
 6)  c
@@ -98,7 +98,7 @@ struct node {
 ```
 
 B) The blanks are:
-* test1() --> `movl 0x18(%rax), %eax`
+* test1() --> `movl 0x24(%rax), %eax`
 * test2() --> 
 ```
 	movq 0x10(%rax), %rax
