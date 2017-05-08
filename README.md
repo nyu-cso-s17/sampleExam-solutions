@@ -12,7 +12,7 @@ Sample Exam: Solutions
 7)  a
 8)  a
 9)  b
-10) a,b
+10) b
 
 ## Problem 2
 
