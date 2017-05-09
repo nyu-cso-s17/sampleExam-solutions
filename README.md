@@ -3,7 +3,7 @@ Sample Exam: Solutions
 
 ## Problem 1: MCQs
 
-1)  b
+1)  b, d
 2)  b
 3)  b
 4)  a
