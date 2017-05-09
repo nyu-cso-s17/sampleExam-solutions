@@ -111,7 +111,7 @@ This problem was discussed in recitation10 so you can refer to the solutions for
 
 ## Problem 7
 
-A) The output is the numbers: 0 1 2 1 2 2 2 (each on a separate line).
+A) The output is the numbers: 0 1 2 1 2 2 2 (each on a separate line). A different ordering is also possible due to non-deterministic scheduling.
 
 B) A total of 7 processes are created by fork(). This does not count `main` itself.
 
